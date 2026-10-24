@@ -1,5 +1,5 @@
 /*
-* this is the candidates with their id, name, email, and skills
+* this creates a table of candidates with their id, name, email, and skills
 */
 
 CREATE TABLE candidates (
@@ -10,7 +10,7 @@ CREATE TABLE candidates (
 )
 
 /*
-* this is the jobs with their id, title, description, and required skills
+* this is creates a table of jobs with their id, title, description, and required skills
 */
 
 CREATE TABLE jobs (

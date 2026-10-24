@@ -1,7 +1,11 @@
-function jobs () {
-    return {
-        
-    }
+function Jobs () {
+    return (
+        <>
+            <div>
+                Hello
+            </div>
+        </>
+    )
 }
 
-export default jobs;
+export default Jobs;
