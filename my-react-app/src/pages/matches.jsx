@@ -1,10 +1,10 @@
-function matches () {
+function Matches () {
     return (
         <nav>    
         </nav>
 
     )
-}
+};
 
-export default matches
+export default Matches;
 
