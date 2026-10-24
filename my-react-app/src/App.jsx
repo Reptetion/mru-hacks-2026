@@ -1,6 +1,5 @@
 import Candidates from "./pages/candidates.jsx";
 import "./App.css";
-import Bridgers from "./pages/bridgers.jsx";
 
 const navigationItems = [
   "Dashboard",
@@ -11,7 +10,9 @@ const navigationItems = [
 ];
 
 function App() {
+  
   return (
+    <>
     <div className="app-shell">
       <aside className="sidebar">
         <a className="brand" href="#" aria-label="Bridgeback home">
@@ -41,9 +42,11 @@ function App() {
           <h1>Candidates</h1>
         </header>
         <Candidates />
-        <Bridgers/>
+      
       </main>
     </div>
+    </>
+    
   );
 }
 

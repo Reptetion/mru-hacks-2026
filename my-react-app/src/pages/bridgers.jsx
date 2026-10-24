@@ -11,7 +11,15 @@
                     <a href="#jobs">Jobs</a>
                     <a href="#settings">Settings</a>
                     
-                    <
+                    <main>
+                        <h1>Find Talent</h1>
+                        <img src="">
+
+                        <h2>Test Subject</h2>
+                        <p>Test subject description</p>
+                         
+                        
+                    </main>
                 </p>
                 </nav>
             </head>
@@ -33,7 +41,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "../index.css";
-import { Frame, useMotionValue, useTransform, useAnimation } from "framer";
+import { motion, useMotionValue, useTransform, useAnimation } from "framer-motion";
 
 // Some styling for the card
 const style = {
